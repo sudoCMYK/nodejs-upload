@@ -10,7 +10,7 @@ http.createServer(function (req, res) {
       var newpath = 'uploads/' + files.filetoupload.name;
       fs.rename(oldpath, newpath, function (err) {
         if (err) throw err;
-        res.write('File uploaded and moved!');
+        res.write('File uploaded and moved! See it at file:///Users/Aiden/Desktop/Uploader/uploads/' + files.filetoupload.name);
         res.end();
       });
  });
