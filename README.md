@@ -3,7 +3,7 @@
 
 # Requirements
 
-Node.JS\n
-http module\n
-formidable module\n
-fs module\n
+Node.JS //
+http module //
+formidable module //
+fs module //
